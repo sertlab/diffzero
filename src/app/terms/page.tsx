@@ -73,7 +73,7 @@ export default function TermsOfService() {
           <h2 className="text-2xl font-semibold text-white mb-3">8. Intellectual Property</h2>
           <p>
             The DiffZero codebase, design, and branding are protected by copyright. The diff algorithm uses open-source libraries (see attributions in our{' '}
-            <a href="https://github.com/YOUR_USERNAME/diffzero" className="text-blue-400 hover:underline" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/sertlab/diffzero" className="text-blue-400 hover:underline" target="_blank" rel="noopener noreferrer">
               GitHub repository
             </a>).
           </p>
@@ -90,13 +90,6 @@ export default function TermsOfService() {
           <h2 className="text-2xl font-semibold text-white mb-3">10. Governing Law</h2>
           <p>
             These Terms are governed by the laws of [Your Jurisdiction]. Any disputes will be resolved in the courts of [Your Jurisdiction].
-          </p>
-        </section>
-
-        <section>
-          <h2 className="text-2xl font-semibold text-white mb-3">11. Contact</h2>
-          <p>
-            For questions about these Terms, contact us at legal@diffzero.dev
           </p>
         </section>
 

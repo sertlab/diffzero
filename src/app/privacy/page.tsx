@@ -83,9 +83,6 @@ export default function PrivacyPolicy() {
           <p className="text-sm text-gray-500">
             Last Updated: {new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
           </p>
-          <p className="text-sm text-gray-500 mt-2">
-            Questions? Contact us at privacy@diffzero.dev
-          </p>
         </section>
       </div>
     </div>
