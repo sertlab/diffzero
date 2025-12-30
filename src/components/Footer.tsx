@@ -15,7 +15,9 @@ export default function Footer() {
             Terms of Service
           </Link>
           <a
-            href="#"
+            href="https://github.com/sertlab/diffzero"
+            target="_blank"
+            rel="noopener noreferrer"
             className="hover:text-gray-300 transition-colors"
           >
             GitHub

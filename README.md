@@ -6,6 +6,10 @@
 [![Next.js](https://img.shields.io/badge/Next.js-16-black)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-4.0-38B2AC)](https://tailwindcss.com/)
+[![GitHub stars](https://img.shields.io/github/stars/sertlab/diffzero?style=social)](https://github.com/sertlab/diffzero)
+[![GitHub forks](https://img.shields.io/github/forks/sertlab/diffzero?style=social)](https://github.com/sertlab/diffzero)
+
+🔗 **[Live Demo](https://diffzero.dev)** | **[Source Code](https://github.com/sertlab/diffzero)** | **[Report Issue](https://github.com/sertlab/diffzero/issues)**
 
 ---
 
@@ -68,8 +72,8 @@ DiffZero uses a **client-side diff algorithm** powered by the `diff` npm package
 ## 🤝 Contributing
 
 Contributions are welcome! Feel free to:
-- Open issues for bugs or feature requests
-- Submit pull requests
+- [Open issues](https://github.com/sertlab/diffzero/issues) for bugs or feature requests
+- [Submit pull requests](https://github.com/sertlab/diffzero/pulls)
 - Improve documentation
 - Share feedback
 
