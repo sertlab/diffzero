@@ -24,8 +24,13 @@ export default function Navbar() {
             <ShieldCheck className="w-3 h-3" />
             Client-Side Only
           </span>
-          {/* Add your GitHub link here later if you want to open source it */}
-          <a href="#" className="text-gray-400 hover:text-white transition-colors">
+          <a
+            href="https://github.com/sertlab/diffzero"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-400 hover:text-white transition-colors"
+            aria-label="GitHub Repository"
+          >
             <Github className="w-5 h-5" />
           </a>
         </div>
