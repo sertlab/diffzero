@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <!-- Blue background with rounded corners -->
+  <rect width="100" height="100" rx="18" fill="#2563eb"/>
+
+  <!-- Terminal icon (similar to lucide Terminal) -->
+  <!-- Chevron/arrow pointing right -->
+  <path d="M30 35 L45 50 L30 65" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- Underscore line -->
+  <line x1="52" y1="65" x2="72" y2="65" stroke="white" stroke-width="6" stroke-linecap="round"/>
+</svg>
