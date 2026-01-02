@@ -137,7 +137,7 @@ export default function PackageSize() {
             />
           </div>
           <button
-            onClick={analyzePackage}
+            onClick={() => analyzePackage()}
             disabled={loading}
             className="px-6 py-3 bg-blue-600 hover:bg-blue-500 rounded-lg font-medium transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
           >
