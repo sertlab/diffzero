@@ -66,6 +66,20 @@ export default function Navbar() {
                 >
                   UUID Generator
                 </Link>
+                <Link
+                  href="/code-screenshot"
+                  className="block px-4 py-2 hover:bg-gray-800 transition-colors text-sm"
+                  onClick={() => setIsToolsOpen(false)}
+                >
+                  Code Screenshot
+                </Link>
+                <Link
+                  href="/package-size"
+                  className="block px-4 py-2 hover:bg-gray-800 transition-colors text-sm"
+                  onClick={() => setIsToolsOpen(false)}
+                >
+                  Package Size
+                </Link>
               </div>
             )}
           </div>
