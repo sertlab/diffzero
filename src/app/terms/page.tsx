@@ -72,10 +72,7 @@ export default function TermsOfService() {
         <section>
           <h2 className="text-2xl font-semibold text-white mb-3">8. Intellectual Property</h2>
           <p>
-            The DiffZero codebase, design, and branding are protected by copyright. The diff algorithm uses open-source libraries (see attributions in our{' '}
-            <a href="https://github.com/sertlab/diffzero" className="text-blue-400 hover:underline" target="_blank" rel="noopener noreferrer">
-              GitHub repository
-            </a>).
+            The DiffZero codebase, design, and branding are protected by copyright. The diff algorithm uses open-source libraries.
           </p>
         </section>
 

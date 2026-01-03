@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react';
 import { diffLines, Change } from 'diff';
 import TextInputArea from '@/components/diff/TextInputArea';
 import DiffResults from '@/components/diff/DiffResults';
+import ToolsGrid from '@/components/ToolsGrid';
 
 export default function DiffChecker() {
   const [original, setOriginal] = useState('');
@@ -51,6 +52,9 @@ export default function DiffChecker() {
 
       {/* Results */}
       <DiffResults diffs={diffs} />
+
+      {/* Tools Grid */}
+      <ToolsGrid />
 
       {/* SEO Content Section - Page Specific */}
       <div className="mt-12 border-t border-gray-800 pt-8">
