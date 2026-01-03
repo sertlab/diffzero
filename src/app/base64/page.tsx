@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { AlertCircle, Copy, Check, Upload, X } from 'lucide-react';
+import ToolsGrid from '@/components/ToolsGrid';
 
 export default function Base64Tool() {
   const [mode, setMode] = useState<'encode' | 'decode'>('encode');
@@ -253,6 +254,9 @@ export default function Base64Tool() {
           </div>
         </div>
       </div>
+
+      {/* Tools Grid */}
+      <ToolsGrid />
 
       {/* SEO Content */}
       <div className="space-y-8 text-gray-300">

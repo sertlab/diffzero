@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { AlertCircle, Copy, Check } from 'lucide-react';
+import ToolsGrid from '@/components/ToolsGrid';
 
 export default function JsonFormatter() {
   const [input, setInput] = useState('');
@@ -200,6 +201,9 @@ export default function JsonFormatter() {
           </div>
         </div>
       </div>
+
+      {/* Tools Grid */}
+      <ToolsGrid />
 
       {/* SEO Content */}
       <div className="space-y-8 text-gray-300">

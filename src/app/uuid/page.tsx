@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { Copy, Check, RefreshCw, Trash2 } from 'lucide-react';
+import ToolsGrid from '@/components/ToolsGrid';
 
 export default function UuidGenerator() {
   const [uuids, setUuids] = useState<string[]>([]);
@@ -180,6 +181,9 @@ export default function UuidGenerator() {
           </p>
         </div>
       )}
+
+      {/* Tools Grid */}
+      <ToolsGrid />
 
       {/* SEO Content */}
       <div className="space-y-8 text-gray-300">

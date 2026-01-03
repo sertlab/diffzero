@@ -4,6 +4,7 @@ import { useState, useRef, useEffect } from 'react';
 import { Download, Copy, Check } from 'lucide-react';
 import { toPng } from 'html-to-image';
 import Prism from 'prismjs';
+import ToolsGrid from '@/components/ToolsGrid';
 import 'prismjs/themes/prism-tomorrow.css';
 import 'prismjs/components/prism-javascript';
 import 'prismjs/components/prism-typescript';
@@ -306,6 +307,9 @@ export default function CodeScreenshot() {
           </div>
         </div>
       </div>
+
+      {/* Tools Grid */}
+      <ToolsGrid />
 
       {/* SEO Content */}
       <div className="space-y-8 text-gray-300">

@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { Search, Package, AlertCircle, TrendingUp, Download } from 'lucide-react';
+import ToolsGrid from '@/components/ToolsGrid';
 
 interface PackageInfo {
   name: string;
@@ -283,6 +284,9 @@ export default function PackageSize() {
           ))}
         </div>
       </div>
+
+      {/* Tools Grid */}
+      <ToolsGrid />
 
       {/* SEO Content */}
       <div className="space-y-8 text-gray-300">
